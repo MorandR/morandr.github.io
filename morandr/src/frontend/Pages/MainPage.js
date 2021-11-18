@@ -1,6 +1,6 @@
 import React from "react";
 // import image from "morandr/src/images/selfImg.jpg";
-import "./mainPage.css";
+import "../mainPage.css";
 
 
     function MainPage() {
