@@ -5,9 +5,10 @@ import "../mainPage.css";
 
     function MainPage() {
 
-        return (
+            return (
 
             <div className= "Main">
+        
                 <header>
                     <h2>
                         Welcome to my website! <br />
