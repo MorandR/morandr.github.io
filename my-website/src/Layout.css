@@ -1,0 +1,26 @@
+
+nav {
+    display: flex;
+    background-color: goldenrod;
+    width:auto;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#secret {
+   
+    margin-left:30px;
+}
+
+#mains{
+    display: flex;
+    margin-right: 30px;
+    
+    
+}
+
+#about{
+    margin: auto 30px;
+}
