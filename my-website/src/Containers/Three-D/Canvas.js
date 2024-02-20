@@ -8,7 +8,7 @@ const Canvas = (props) => {
     const context = canvas.getContext("2d");
 
     //Drawing below
-    context.fillStyle = '#00000'
+    context.fillStyle = '#A73FB2' //Purple
     context.fillRect(0,0, context.canvas.width, context.canvas.height)
   }, []);
 

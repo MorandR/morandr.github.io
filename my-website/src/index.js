@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
-import Layout from "./Layout";
-import App from "./App";
-import Home from "./Home";
-import About from "./About";
-import Person from "./Person";
-import Tree from "./FamilyTree"
+import Layout from "./Containers/Default/Pages/Layout";
+import App from "./Containers/Default/Pages/App";
+import Home from "./Containers/Default/Pages/Home";
+import About from "./Containers/Default/Pages/About";
+import Person from "./Containers/Default/Pages/Person";
+import Tree from "./Containers/Default/Pages/FamilyTree"
 import reportWebVitals from "./reportWebVitals";
 
 
@@ -16,10 +16,10 @@ root.render(
   
   <BrowserRouter>
      <Routes>
-  {/*      <Route path='/' element={<Layout/>}/> 
+       <Route path='/' element={<Layout/>}/> 
      <Route path='/person' element={<Person/>}/> 
      <Route path='/secret' element={<Tree/>}/> 
-       <Route path='/about' element={<About/>}/>  */}
+       <Route path='/about' element={<About/>}/> 
        <Route path='/app' element={<App/>}/>
      </Routes>
    </BrowserRouter>

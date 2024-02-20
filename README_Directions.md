@@ -7,6 +7,13 @@
     -   npm i -D react-router-dom@latest
 
 
+Find open browser and view changes in real time
+  - cd into <my-website>
+  - npm start
+
+  
+
+
 
 
 Inside that directory, you can run several commands:

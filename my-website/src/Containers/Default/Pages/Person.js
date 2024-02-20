@@ -1,5 +1,5 @@
-import "./Person.css";
-import richard from "./images/richard.jpeg";
+import "../CSS/Person.css";
+import richard from "../../../images/richard.jpeg";
 import Layout from "./Layout";
 
 export default function Person() {
